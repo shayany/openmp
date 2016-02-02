@@ -1,0 +1,266 @@
+Starting job 13885706 ("FFT") on c2-18 at ti. 02. feb. 15:09:32 +0100 2016
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0448561
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.046582
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0497792
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0516641
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.054529
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0488489
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0452409
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0543251
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0664971
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.044349
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.046968
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0436912
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0481532
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.050581
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.050066
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0461578
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0459661
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.046268
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0612848
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0523312
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0541461
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0486031
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0535471
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.052592
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0452702
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0477438
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0426772
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.044548
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.048497
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.066077
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0533969
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0562909
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.048028
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.048173
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.051415
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0461149
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.045902
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0462909
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0476208
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0564911
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.046679
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0523391
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.052824
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.047147
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0525608
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0528669
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.046803
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0469482
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0493088
+
+Use: ./a.out <size_in_Kb>
+Running with Size: 1024 K
+Test array: Ok
+TBB version time usage =0.0501051
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.8   3) intel/2016.0
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+13885706.ba+    619108K     30504K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13885706            FFT         16                         00:00:07      0:0 
+
+Job 13885706 ("FFT") completed on c2-18 at ti. 02. feb. 15:09:38 +0100 2016

@@ -1,0 +1,23 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Begin optimization report for: main(int, char **)
+
+    Report from: OpenMP optimizations [openmp]
+
+OpenMP Construct at c_jacobi01.c(259,1) inlined into c_jacobi01.c(190,5)
+remark #16200: OpenMP DEFINED LOOP WAS PARALLELIZED
+OpenMP Construct at c_jacobi01.c(266,1) inlined into c_jacobi01.c(190,5)
+remark #16200: OpenMP DEFINED LOOP WAS PARALLELIZED
+===========================================================================
+
+Begin optimization report for: jacobi(int, int, double, double, double, double, double *, double *, double, int)
+
+    Report from: OpenMP optimizations [openmp]
+
+OpenMP Construct at c_jacobi01.c(259,1)
+remark #16200: OpenMP DEFINED LOOP WAS PARALLELIZED
+OpenMP Construct at c_jacobi01.c(266,1)
+remark #16200: OpenMP DEFINED LOOP WAS PARALLELIZED
+===========================================================================

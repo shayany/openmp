@@ -1,0 +1,1 @@
+icc -openmp_stubs -ltbb -O3 -xAVX -ip -fno-alias  -I../../include -o ../../bin/c_loopB.badSolution2.seq c_loopB.badSolution2.c  ../../common/ompscrCommon_c.o ../../common/wtime_c.o 

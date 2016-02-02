@@ -1,0 +1,666 @@
+Starting job 13885517 ("FFT") on c12-21 at ti. 02. feb. 14:01:52 +0100 2016
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.243822
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.243533
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.244674
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.243376
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.244094
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.243176
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.243098
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.240392
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.244877
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.244755
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.243643
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.240297
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.239707
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.240157
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.239706
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.239158
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.240529
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.239444
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.246088
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.241094
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.239678
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.240417
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.240997
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.239788
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.242505
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.240168
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.239996
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.239803
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.239003
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.239611
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.239844
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.243001
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.238129
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.239486
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.238121
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.241349
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.238794
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.239145
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.239043
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.239631
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.241544
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.240039
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.23944
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.238855
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.240059
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.239212
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.23886
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.240047
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.238974
+
+This program is part of the OpenMP Source Code Repository (OmpSCR)
+
+Program:       ./c_fft.par
+Description:   Divide and Conquer Fast Fourier Transform.
+
+Argument Size of the input signal (in Kb) 1024
+Argument NUMTHREADS 16
+
+Running ...
+
+Test array: Ok
+OMP version time usage =0.239044
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.8   3) intel/2016.0
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+13885517.ba+   1304972K     38928K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13885517            FFT         16                         00:00:17      0:0 
+
+Job 13885517 ("FFT") completed on c12-21 at ti. 02. feb. 14:02:07 +0100 2016

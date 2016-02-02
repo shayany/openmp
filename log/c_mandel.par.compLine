@@ -1,0 +1,1 @@
+icc -openmp -openmp_report=2 -ltbb -O3 -xAVX -ip -fno-alias  -I../../include -o ../../bin/c_mandel.par c_mandel.c  ../../common/ompscrCommon_c.o ../../common/wtime_c.o -lm

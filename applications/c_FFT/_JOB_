@@ -1,0 +1,48 @@
+#!/bin/bash
+
+# Job name:
+#SBATCH --job-name=FFT
+
+# Project:
+#SBATCH --account=nn2849k
+
+# Wall clock limit:
+#SBATCH --time=00:50:00
+
+
+# Max memory usage:
+#SBATCH --mem-per-cpu=3900M
+
+# Number of cores:
+#SBATCH --ntasks-per-node=16
+#SBATCH --nodes=1
+#SBATCH --exclusive
+#SBATCH --output=./FFT-TBB-%j.out
+
+## Set up job environment:
+source /cluster/bin/jobsetup
+module purge   # clear any inherited modules
+module load openmpi.intel/1.8.8
+module load intel/2016.0
+
+##module unload intel/2015.3
+set -o errexit # exit on errors
+# Do some work:
+
+#cd $TBBROOT/bin
+source $TBBROOT/bin/tbbvars.sh intel64
+
+cp $(pwd)/$1 $SCRATCH
+
+cd $SCRATCH
+
+for (( thread=1; thread <= 50; thread++ ))
+do	
+	#for (( chunck=1; chunck<1000000; chunck*=2 ))
+	#do
+		#export OMP_NUM_THREADS=$thread
+		#export KMP_AFFINITY="granularity=core,scatter"
+		#export OMP_NUM_THREADS=16
+		./$1 1024
+	#done
+done

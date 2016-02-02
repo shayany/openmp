@@ -1,0 +1,1 @@
+icc -openmp -openmp_report=2 -ltbb -O3 -xAVX -ip -fno-alias  -I../../include -o ../../bin/c_testPath.par c_testPath.c AStack.o tg.o ../../common/ompscrCommon_c.o ../../common/wtime_c.o 

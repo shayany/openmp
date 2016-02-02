@@ -1,0 +1,27 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Begin optimization report for: main(int, char **)
+
+    Report from: OpenMP optimizations [openmp]
+
+OpenMP Construct at c_testPath.c(219,3) inlined into c_testPath.c(155,1)
+remark #16206: OpenMP multithreaded code generation for CRITICAL was successful
+OpenMP Construct at c_testPath.c(267,4) inlined into c_testPath.c(155,1)
+remark #16206: OpenMP multithreaded code generation for CRITICAL was successful
+OpenMP Construct at c_testPath.c(195,1) inlined into c_testPath.c(155,1)
+remark #16201: OpenMP DEFINED REGION WAS PARALLELIZED
+===========================================================================
+
+Begin optimization report for: testPath(int, int, int, tg)
+
+    Report from: OpenMP optimizations [openmp]
+
+OpenMP Construct at c_testPath.c(219,3)
+remark #16206: OpenMP multithreaded code generation for CRITICAL was successful
+OpenMP Construct at c_testPath.c(267,4)
+remark #16206: OpenMP multithreaded code generation for CRITICAL was successful
+OpenMP Construct at c_testPath.c(195,1)
+remark #16201: OpenMP DEFINED REGION WAS PARALLELIZED
+===========================================================================

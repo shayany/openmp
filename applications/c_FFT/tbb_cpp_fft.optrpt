@@ -1,0 +1,206 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Begin optimization report for: main(int, char **)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tbb_cpp_fft.cpp(20,3) inlined into tbb_cpp_fft.cpp(203,3)
+   remark #15389: vectorization support: reference a has unaligned access   [ tbb_cpp_fft.cpp(21,5) ]
+   remark #15381: vectorization support: unaligned access used inside loop body
+   remark #15305: vectorization support: vector length 8
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15309: vectorization support: normalized vectorization overhead 0.050
+   remark #15301: SIMD LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15462: unmasked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 9 
+   remark #15477: vector loop cost: 3.750 
+   remark #15478: estimated potential speedup: 2.260 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at tbb_cpp_fft.cpp(51,3) inlined into tbb_cpp_fft.cpp(204,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+   remark #15346: vector dependence: assumed FLOW dependence between W_21375 line 52 and W_21375 line 52
+LOOP END
+
+LOOP BEGIN at tbb_cpp_fft.cpp(51,3) inlined into tbb_cpp_fft.cpp(204,3)
+<Remainder>
+LOOP END
+
+LOOP BEGIN at tbb_cpp_fft.cpp(31,5) inlined into tbb_cpp_fft.cpp(216,7)
+   remark #15520: loop was not vectorized: loop with multiple exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: test_array(unsigned int, Complex *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tbb_cpp_fft.cpp(31,5)
+   remark #15520: loop was not vectorized: loop with multiple exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+===========================================================================
+
+Begin optimization report for: Roots(unsigned int, Complex *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tbb_cpp_fft.cpp(51,3)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+   remark #15346: vector dependence: assumed FLOW dependence between W line 52 and W line 52
+LOOP END
+
+LOOP BEGIN at tbb_cpp_fft.cpp(51,3)
+<Remainder>
+LOOP END
+===========================================================================
+
+Begin optimization report for: tbb::interface7::internal::partition_type_base<tbb::interface7::internal::auto_partition_type>::execute<tbb::interface7::internal::start_for<tbb::blocked_range<size_t>, ApplySolver, const tbb::auto_partitioner>, tbb::blocked_range<size_t>>(tbb::interface7::internal::partition_type_base<tbb::interface7::internal::auto_partition_type> *, tbb::interface7::internal::start_for<tbb::blocked_range<size_t>, ApplySolver, const tbb::auto_partitioner> &, tbb::blocked_range<size_t> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/partitioner.h(172,9) inlined into /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/partitioner.h(255,28)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tbb_cpp_fft.cpp(89,3) inlined into /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/partitioner.h(265,23)
+   remark #15520: loop was not vectorized: loop with multiple exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+LOOP BEGIN at /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/partitioner.h(165,9) inlined into /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/partitioner.h(268,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+   remark #15346: vector dependence: assumed ANTI dependence between my_head line 186 and my_head line 186
+   remark #15346: vector dependence: assumed FLOW dependence between my_head line 186 and my_head line 186
+   remark #15346: vector dependence: assumed FLOW dependence between my_head line 186 and my_head line 186
+   remark #15346: vector dependence: assumed ANTI dependence between my_head line 186 and my_head line 186
+LOOP END
+
+LOOP BEGIN at tbb_cpp_fft.cpp(89,3) inlined into /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/partitioner.h(251,19)
+   remark #15520: loop was not vectorized: loop with multiple exits cannot be vectorized unless it meets search loop idiom criteria
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/partitioner.h(246,33)
+   remark #15526: loop was not vectorized: ASM code cannot be vectorized   [ /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/tbb_machine.h(618,0) ]
+LOOP END
+
+LOOP BEGIN at /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/partitioner.h(266,52)
+   remark #15529: loop was not vectorized: volatile assignment was not vectorized. Try using non-volatile assignment.   [ /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/tbb_machine.h(613,23) ]
+LOOP END
+===========================================================================
+
+Begin optimization report for: tbb::interface7::internal::range_vector<tbb::blocked_range<size_t>, (tbb::interface7::internal::depth_t)'\b'>::~range_vector(tbb::interface7::internal::range_vector<tbb::blocked_range<size_t>, (tbb::interface7::internal::depth_t)'\b'> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/partitioner.h(165,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+   remark #15346: vector dependence: assumed ANTI dependence between  line 186 and  line 186
+   remark #15346: vector dependence: assumed FLOW dependence between  line 186 and  line 186
+   remark #15346: vector dependence: assumed FLOW dependence between  line 186 and  line 186
+   remark #15346: vector dependence: assumed ANTI dependence between  line 186 and  line 186
+LOOP END
+===========================================================================
+
+Begin optimization report for: tbb::interface7::internal::range_vector<tbb::blocked_range<int>, (tbb::interface7::internal::depth_t)'\b'>::~range_vector(tbb::interface7::internal::range_vector<tbb::blocked_range<int>, (tbb::interface7::internal::depth_t)'\b'> *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/partitioner.h(165,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+   remark #15346: vector dependence: assumed ANTI dependence between  line 186 and  line 186
+   remark #15346: vector dependence: assumed FLOW dependence between  line 186 and  line 186
+   remark #15346: vector dependence: assumed FLOW dependence between  line 186 and  line 186
+   remark #15346: vector dependence: assumed ANTI dependence between  line 186 and  line 186
+LOOP END
+===========================================================================
+
+Begin optimization report for: tbb::interface7::internal::partition_type_base<tbb::interface7::internal::affinity_partition_type>::execute<tbb::interface7::internal::start_for<tbb::blocked_range<int>, struct lambda [] type at line 130961, col. 6, tbb::affinity_partitioner>, tbb::blocked_range<int>>(tbb::interface7::internal::partition_type_base<tbb::interface7::internal::affinity_partition_type> *, tbb::interface7::internal::start_for<tbb::blocked_range<int>, struct lambda [] type at line 130961, col. 6, tbb::affinity_partitioner> &, tbb::blocked_range<int> &)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/partitioner.h(172,9) inlined into /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/partitioner.h(255,28)
+   remark #15521: loop was not vectorized: loop control variable was not identified. Explicitly compute the iteration count before executing the loop or try using canonical loop form
+LOOP END
+
+LOOP BEGIN at tbb_cpp_fft.cpp(165,10) inlined into /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/partitioner.h(265,23)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+   remark #15346: vector dependence: assumed ANTI dependence between this_21440 line 170 and this_21440 line 173
+   remark #15346: vector dependence: assumed FLOW dependence between this_21440 line 173 and this_21440 line 170
+LOOP END
+
+LOOP BEGIN at /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/partitioner.h(165,9) inlined into /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/partitioner.h(268,9)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+   remark #15346: vector dependence: assumed ANTI dependence between my_head line 186 and my_head line 186
+   remark #15346: vector dependence: assumed FLOW dependence between my_head line 186 and my_head line 186
+   remark #15346: vector dependence: assumed FLOW dependence between my_head line 186 and my_head line 186
+   remark #15346: vector dependence: assumed ANTI dependence between my_head line 186 and my_head line 186
+LOOP END
+
+LOOP BEGIN at tbb_cpp_fft.cpp(165,10) inlined into /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/partitioner.h(251,19)
+   remark #15344: loop was not vectorized: vector dependence prevents vectorization
+   remark #15346: vector dependence: assumed ANTI dependence between this_21440 line 170 and this_21440 line 173
+   remark #15346: vector dependence: assumed FLOW dependence between this_21440 line 173 and this_21440 line 170
+LOOP END
+
+
+Non-optimizable loops:
+
+
+LOOP BEGIN at /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/partitioner.h(246,33)
+   remark #15526: loop was not vectorized: ASM code cannot be vectorized   [ /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/tbb_machine.h(618,0) ]
+LOOP END
+
+LOOP BEGIN at /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/partitioner.h(266,52)
+   remark #15529: loop was not vectorized: volatile assignment was not vectorized. Try using non-volatile assignment.   [ /cluster/software/VERSIONS/intel-2016.0/compilers_and_libraries_2016.0.109/linux/tbb/include/tbb/tbb_machine.h(613,23) ]
+LOOP END
+===========================================================================
+
+Begin optimization report for: initialize(unsigned int, Complex *)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at tbb_cpp_fft.cpp(20,3)
+   remark #15389: vectorization support: reference a has unaligned access   [ tbb_cpp_fft.cpp(21,5) ]
+   remark #15381: vectorization support: unaligned access used inside loop body
+   remark #15305: vectorization support: vector length 8
+   remark #15399: vectorization support: unroll factor set to 2
+   remark #15309: vectorization support: normalized vectorization overhead 0.050
+   remark #15301: SIMD LOOP WAS VECTORIZED
+   remark #15451: unmasked unaligned unit stride stores: 1 
+   remark #15462: unmasked indexed (or gather) loads: 2 
+   remark #15475: --- begin vector loop cost summary ---
+   remark #15476: scalar loop cost: 9 
+   remark #15477: vector loop cost: 3.750 
+   remark #15478: estimated potential speedup: 2.260 
+   remark #15488: --- end vector loop cost summary ---
+LOOP END
+
+LOOP BEGIN at tbb_cpp_fft.cpp(20,3)
+<Remainder loop for vectorization>
+   remark #15389: vectorization support: reference a has unaligned access   [ tbb_cpp_fft.cpp(21,5) ]
+   remark #15381: vectorization support: unaligned access used inside loop body
+   remark #15305: vectorization support: vector length 4
+   remark #15309: vectorization support: normalized vectorization overhead 0.812
+   remark #15301: REMAINDER LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at tbb_cpp_fft.cpp(20,3)
+<Remainder loop for vectorization>
+LOOP END
+===========================================================================

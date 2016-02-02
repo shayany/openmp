@@ -1,0 +1,31 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+Begin optimization report for: main(int, char **)
+
+    Report from: OpenMP optimizations [openmp]
+
+OpenMP Construct at c_md.c(162,1) inlined into c_md.c(244,3)
+remark #16200: OpenMP DEFINED LOOP WAS PARALLELIZED
+OpenMP Construct at c_md.c(162,1) inlined into c_md.c(248,5)
+remark #16200: OpenMP DEFINED LOOP WAS PARALLELIZED
+OpenMP Construct at c_md.c(193,1) inlined into c_md.c(252,5)
+remark #16200: OpenMP DEFINED LOOP WAS PARALLELIZED
+===========================================================================
+
+Begin optimization report for: compute(int, int, vnd_t *, vnd_t *, double, vnd_t *, double *, double *)
+
+    Report from: OpenMP optimizations [openmp]
+
+OpenMP Construct at c_md.c(162,1)
+remark #16200: OpenMP DEFINED LOOP WAS PARALLELIZED
+===========================================================================
+
+Begin optimization report for: update(int, int, vnd_t *, vnd_t *, vnd_t *, vnd_t *, double, double)
+
+    Report from: OpenMP optimizations [openmp]
+
+OpenMP Construct at c_md.c(193,1)
+remark #16200: OpenMP DEFINED LOOP WAS PARALLELIZED
+===========================================================================
